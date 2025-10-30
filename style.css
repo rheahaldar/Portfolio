@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background: #111;
+    background: #fff;
     color: white;
     font-family: Arial, sans-serif;
   }
@@ -43,7 +43,7 @@ body { font-family: Arial,
     padding: 0; 
     line-height: 1.6; }
     nav {
-        background: #fff;
+        background: #111;
         color: #fff;
         display: flex;
         justify-content: space-between;

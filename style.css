@@ -4,32 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #111; 
+    background: #111;
     color: white;
     position: relative;
     overflow: hidden;
   }
-  
+ 
   .hero-text {
     text-align: center;
     transition: transform 0.8s ease, opacity 0.8s ease, color 0.8s ease;
+    z-index: 1;
   }
   
-  .hero-text h1 {
-    font-size: 3rem;
-    margin: 0;
-  }
   
-  .hero-text p {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    color: #ccc;
-  }
- 
   .hero-text.scrolled {
-    transform: scale(1.3) translateY(-50px);
+    transform: translateY(-80px) scale(1.15);
     opacity: 0;
-    color: white;
+    color: #111;
   }
   
 
@@ -38,23 +29,31 @@ body { font-family: Arial,
     margin: 0; 
     padding: 0; 
     line-height: 1.6; }
-nav {
-    background: #000;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-  }
-  
-nav ul { list-style: none; 
-    display: flex; 
-    gap: 1rem; }
-nav ul li a { color: #fff; 
-    text-decoration: none; }
+    nav {
+        background: #111;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        transition: background 0.3s ease;
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+      }
+      
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
 section { padding: 4rem 2rem; 
     text-align: center; }
 .projects-container { display: flex; 

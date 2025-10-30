@@ -9,7 +9,7 @@ const heroText = document.querySelector('.hero-text');
 
 window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
-  const triggerPoint = 100; // adjust this to control when the animation starts
+  const triggerPoint = window.innerHeight * 0.25; // trigger after 25% scroll
 
   if (scrollY > triggerPoint) {
     heroText.classList.add('scrolled');

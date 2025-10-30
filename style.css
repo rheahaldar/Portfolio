@@ -129,3 +129,18 @@ button { padding: 0.5rem;
         height: auto;
         border-radius: 8px;
       }
+      section#contact {
+        background: #111;
+        color: #fff;
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+    
+    section#contact a {
+        color: #00aaff; 
+        text-decoration: none;
+    }
+    
+    section#contact a:hover {
+        text-decoration: underline;
+    }

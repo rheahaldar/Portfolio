@@ -43,7 +43,7 @@ body { font-family: Arial,
     padding: 0; 
     line-height: 1.6; }
     nav {
-        background: #111;
+        background: #fff;
         color: #fff;
         display: flex;
         justify-content: space-between;

@@ -1,4 +1,11 @@
-
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
 #home {
     height: 100vh;
     display: flex;
@@ -8,6 +15,7 @@
     color: white;
     position: relative;
     overflow: hidden;
+    box-sizing: border-box;
   }
  
   .hero-text {
@@ -15,7 +23,12 @@
     transition: transform 0.8s ease, opacity 0.8s ease, color 0.8s ease;
     z-index: 1;
   }
-  
+  .hero-text h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+  }
   
   .hero-text.scrolled {
     transform: translateY(-80px) scale(1.15);
@@ -30,7 +43,7 @@ body { font-family: Arial,
     padding: 0; 
     line-height: 1.6; }
     nav {
-        background: #222;
+        background: #111;
         color: #fff;
         display: flex;
         justify-content: space-between;
@@ -41,6 +54,7 @@ body { font-family: Arial,
         width: 100%;
         z-index: 1000;
         transition: background 0.3s ease;
+        box-sizing: border-box;
       }
       
       nav ul {

@@ -30,13 +30,13 @@ body { font-family: Arial,
     padding: 0; 
     line-height: 1.6; }
     nav {
-        background: #111;
+        background: #222;
         color: #fff;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 2rem;
-        position: fixed;
+        padding: 1rem 2rem; 
+        position: sticky;
         top: 0;
         width: 100%;
         z-index: 1000;

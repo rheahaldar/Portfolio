@@ -49,7 +49,7 @@ body { font-family: Arial,
         justify-content: space-between;
         align-items: center;
         padding: 1rem 2rem; 
-        position: sticky;
+        position: fixed;
         top: 0;
         width: 100%;
         z-index: 1000;
@@ -94,3 +94,8 @@ button { padding: 0.5rem;
     color: #fff; 
     border-radius: 5px; 
     cursor: pointer; }
+
+#about {
+    border-bottom: 2px solid #111; 
+    padding-bottom: 2rem; 
+    }
